@@ -1,0 +1,22 @@
+using System;
+
+class program
+{
+    static void Main()
+    {
+        Console.WriteLine("Write your age -");
+
+        int age;
+        Boolean isvalid = int.TryParse(Console.ReadLine(), out age);
+
+        if (isvalid && age >  0)
+        {
+           Console.WriteLine($"you look older than {age}");
+        }
+        else
+        {
+            Console.WriteLine("Please enter a valid positive number for age");
+        }
+    }
+        
+}
