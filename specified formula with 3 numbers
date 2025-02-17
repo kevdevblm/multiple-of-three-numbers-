@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Enter the first number:");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+        
+        Console.WriteLine("Enter the second number");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+        
+        Console.WriteLine("Enter the third number");
+        double num3 = Convert.ToDouble(Console.ReadLine());
+        
+        Console.WriteLine("Enter the fourth number");
+        double num4 = Convert.ToDouble(Console.ReadLine());
+
+        Double average = (num1 + num2 + num3 + num4) /4;
+        
+        Console.WriteLine("The average of the four numbers is :" + average);
+    }
+}
